@@ -1,0 +1,190 @@
+/* ------ Seção 4 trechos ---------*/
+#secao-4-trechos,
+#trecho-1,
+#trecho-2,
+#trecho-3,
+#trecho-4,
+#trecho-5,
+#trecho-6,
+#trecho-7,
+#trecho-8,
+#trecho-9,
+#trecho-10 {
+  display: none;
+
+}
+
+.box-trechos-todos {
+
+  position: relative;
+  background-color: transparent;
+  width: 520px;
+  height: 490px;
+  margin: auto;
+
+}
+
+.box-trechos {
+
+  position: relative;
+  margin: auto;
+  /* background-color: #ba0047; */
+  background-color: transparent;
+  /*background-image: linear-gradient(180deg, #304266, #304266, #304266,*transparent);*/
+  height: 300px;
+  z-index: 1;
+
+
+}
+
+.folhaPagina4-trechos {
+  width: 608px;
+  height: 795px;
+  background-color: #efede5;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid#959494;
+  opacity: 100%;
+}
+
+#texto-inicial-trechos {
+  position: relative;
+  text-align: justify;
+  font-size: 14px;
+  padding: 7% 7% 5.4% 7%;
+  margin: auto;
+}
+
+
+
+.letraA {
+  width: 80px;
+  height: 80px;
+  float: left;
+  position: relative;
+  opacity: 100%;
+  left: -3px;
+  top: 0px;
+
+}
+
+.ambienteEtapa3 {
+  position: relative;
+  top: -190px;
+  left: 43px;
+  z-index: 0;
+}
+
+.trechos {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  margin: auto;
+  text-align: inherit;
+  padding: 1rem;
+  color: #354551;
+  position: relative;
+  background-image: transparent;
+  width: 521px;
+  height: 265px;
+  z-index: 1;
+}
+
+.format-trecho {
+  position: absolute;
+    width: 514px;
+    height: 265px;
+    margin: auto;
+    padding: 4rem;
+    top: -33px;
+
+}
+
+
+.balao-next-button1,
+.balao-next-button2,
+.balao-next-button3,
+.balao-next-button4,
+.balao-next-button5,
+.balao-next-button6,
+.balao-next-button7,
+.balao-next-button8,
+.balao-next-button9,
+.balao-next-button10 {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  display: none;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  padding-top: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  text-align: center;
+  height: 128px;
+  background-size: 100%;
+  position: absolute;
+  top: 281px;
+  left: 226px;
+  border-radius: 3px;
+}
+
+#next-button1,
+#next-button2,
+#next-button3,
+#next-button4,
+#next-button5,
+#next-button6,
+#next-button7,
+#next-button8,
+#next-button9,
+#next-button10 {
+  background-color: #7b7abb;
+  color: white;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  margin: 13px auto;
+}
+
+#next-button1:hover,
+#next-button2:hover,
+#next-button3:hover,
+#next-button4:hover,
+#next-button5:hover,
+#next-button6:hover,
+#next-button7:hover,
+#next-button8:hover,
+#next-button9:hover,
+#next-button10:hover {
+  background-color: #9a99c6;
+  color: white;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  margin: 13px auto;
+}
+
+
+
+#imagem-fundo-trechos {
+  background-image: url(../assets/ambiente/folha_trechos2.png);
+  margin: auto;
+  width: 530px;
+  background-size: 100% 100%;
+  min-height: 578px;
+  position: absolute;
+  top: 167px;
+  left: 36px;
+  z-index: 0;
+}

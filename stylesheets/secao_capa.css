@@ -1,0 +1,112 @@
+.folhaPaginaCapa {
+    width: 608px;
+    height: 795px;
+    background-color: #efede5;
+    margin: 0px auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* border: 1px solid#959494; */
+    margin: 10px auto;
+  }
+  
+  .tituloAberturaCapa {
+    padding: 2rem 7rem 1rem 7rem;
+    position: absolute;
+    margin: auto;
+    
+  }
+
+
+  .icone-univesp {
+    margin: auto;
+    position: absolute;
+    width: 27px;
+    top: 724px;
+    left: 293px;
+
+  }
+
+ 
+  
+  .bt-abertura-capa {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fcd20a;
+    text-align: center;
+    width: 112px;
+    color: #fff;
+    display: inline-block;
+    margin: -18em 1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid #fff;
+   
+    cursor: pointer;
+    position: relative;
+    top: -7px;
+    left: 232px;
+    z-index: 100;
+  }
+  
+  .bt-abertura-capa:hover::before{
+    content: "";
+    width: 0; 
+    height: 0;
+    top: 26px;
+    left:101px;
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #995705;
+    transform: rotate(45deg);
+  }
+  
+  .bt-abertura-capa:hover::after{
+    content: "";
+    width: 0; 
+    height: 0;
+    top: 19px;
+    left:94px;
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fafaf9;
+    transform: rotate(224deg);
+  }
+
+  .bt-abertura-capa:hover{
+    background-color: #f8dd56;
+  }
+  
+
+  .linhaDecorativaCanto2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    opacity: 50%;
+    left: 395px;
+    top: 584px;
+    transform: scale(-1);
+  }
+
+  .linhaDecorativaCanto3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    opacity: 50%;
+    left: 395px;
+    top: 5px;
+    transform: scaleX(-1);
+}
+
+.linhaDecorativaCanto4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    opacity: 50%;
+    left: 7px;
+    top: 584px;
+    transform: scaleY(-1);
+}
+

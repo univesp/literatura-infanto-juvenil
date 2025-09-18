@@ -1,0 +1,91 @@
+/* ------ Seção 4 ---------*/
+
+
+.folhaPagina4 {
+    width: 608px;
+    height: 795px;
+    background-color: #efede5;
+    margin: 0px auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* border: 1px solid#959494; */
+    opacity: 100%;
+    margin: 10px auto !important;
+  }
+  
+  .paragarafo-secao-4 {
+    text-align: justify;
+    font-size: 14px;
+    padding: 7% 7% 10.5% 7%;
+    margin: auto;
+  }
+  
+  .box-textoAlternativas2 {
+    width: 520px;
+    background-color: #77262e;
+    position: relative;
+    top: -20px;
+    left: 43px;
+    border: none;
+    z-index: 2;
+  }
+  
+  .box-textoAlternativas2 p {
+    text-align: justify;
+    color: #fff;
+    font-size: 14px;
+    padding: 4% 4% 0% 4%;
+    margin: auto;
+    line-height: 24px; 
+    position: relative;
+    z-index: 1;
+}
+  
+
+  .letraL{
+    width: 80px;
+    height:80px;
+    float: left;
+    position: relative;
+    opacity: 100%;
+    left: -3px;
+    top: 0px;
+  
+  }
+  
+  .formA {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: -204px;
+    left: 37px;
+    z-index: 2;
+  }
+
+  .folhaPagina4 h2 {
+    display: inline-block;
+    position: absolute;
+    top: 527px;
+    left: 250px;
+    font-family: "Slackey", cursive;
+  }
+  
+  
+  .linhasDecorativasPaginas4{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 58px;
+    top: 521px;
+  }
+
+  
+  #secao-4 .bottom-page-number{
+    margin-top: 0px;
+  }
+
+  .ambienteEtapa4 {
+    margin: 0% 0% -3.5px 0%;
+  }
+  

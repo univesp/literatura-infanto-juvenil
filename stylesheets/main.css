@@ -1,0 +1,519 @@
+nav {
+  background-color: #404e37
+}
+
+main {
+  padding-top: 0px !important;
+  background-color: #404e37
+}
+
+.folhaPaginaCapa,.folhaPagina1, .folhaPagina2, .folhaPagina3, .folhaPagina4, .folhaPagina5,.folhaPagina6  {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  
+ 
+}
+
+
+/* #89afd6   #576f46 #708363 */
+/*---------Feedback seção 2 -------*/
+
+/*---------Botão voltar -------*/
+
+#secao-1,
+#secao-2,
+#secao-3,
+#secao-4,
+#secao-5,
+#secao-6 {
+  display: none;
+}
+
+@media screen and (max-width: 992px)  
+{
+  .folhaPaginaCapa
+  
+  {
+  display: none;  
+ 
+  }
+}
+
+
+
+#bt-avancar-secao2,
+#bt-avancar-secao3 {
+  display: none;
+}
+
+#bt-voltar-secao2 {
+  display: none;
+}
+
+#bt-avancar-secaocapa {
+  top: -136px;
+}
+
+#bt-avancar-secao1 {
+  top: 35px;
+}
+
+#bt-avancar-secao2 {
+  top: 1022px;
+}
+
+#bt-avancar-secao3 {
+  top: 1022px;
+}
+
+#bt-avancar-secao4 {
+  top: 1022px;
+}
+
+#bt-avancar-secao5 {
+  top: 1022px;
+}
+
+#bt-imprimir-salvar {
+  top: 1022px;
+}
+
+#bt-voltar-secao1 {
+  top: 1022px;
+}
+
+#bt-voltar-secao2 {
+  top: 1022px;
+}
+
+#bt-voltar-secao3 {
+  top: 1022px;
+}
+
+#bt-voltar-secao4 {
+  top: 1022px;
+}
+
+#bt-voltar-secao5 {
+  top: 1022px;
+}
+
+#bt-voltar-secao6 {
+  top: 1022px;
+}
+
+.folhaPagina2 a,
+.folhaPagina3 a,
+.folhaPagina4 a,
+.folhaPagina5 a,
+.folhaPagina6 a {
+  text-decoration: none;
+}
+
+.bt-Voltar {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ed8422;
+  text-align: center;
+  width: 100px;
+  height: 42px;
+  color: #fff;
+  display: inline-block;
+  margin: -18em 1em;
+  padding: 7px 2px 2px 2px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  /* transform: translate(150%); */
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  top: 975px;
+  z-index: 2;
+}
+
+.bt-Voltar:hover::before {
+  content: "";
+  width: 0;
+  height: 0;
+  top: 26px;
+  left: -1px;
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #995705;
+  transform: rotate(132deg);
+}
+
+.bt-Voltar:hover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  top: 19px;
+  left: 6px;
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fafaf9;
+  transform: rotate(312deg);
+}
+
+.bt-Voltar:hover{
+  background-color: #f59b48;
+}
+
+.bottom-page-number {
+  margin: 3% 7% 3% 7%;
+  text-align: center;
+  background-image: url(../assets/ambiente/linhasDecorativasPaginas.svg);
+  background-position-x: center;
+  font-family: "Slackey", cursive;
+  font-size: 2rem;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+.linhaDecorativaHorizontalNova {
+  width: 100%;
+  height: 71px;
+  background-image: url(../assets/ambiente/linhasDecorativasHorizontal.svg);
+  background-size: 110% 90px;
+  background-position-x: center;
+  opacity: 50%;
+}
+
+
+/*---------Feedback seção 3 -------*/
+
+
+/*Questionamento da Cuca*/
+
+.folhaRespostaCuca {
+  display: none;
+  width: 608px;
+  height: 804px;
+  background-color: rgba(25, 25, 25, .1);
+  margin: 50px auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 50px;
+  left: 0px;
+  border: 1px solid#959494;
+  z-index: 0;
+}
+
+/*Tentar novamente*/
+
+.folhaTentarnovamenteta {
+  display: none;
+  width: 608px;
+  height: 804px;
+  background-color: rgba(25, 25, 25, .1);
+  margin: 50px auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 50px;
+  left: 0px;
+  border: 1px solid#959494;
+  z-index: 0;
+}
+
+.cucaTentarnovamente {
+  width: 555px;
+  height: 142px;
+  text-align: center;
+  padding: 2px 20px 2px 20px;
+  background-image: url(../assets/baloes_fala/feedbackbalaoCuca_Etapa3.svg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  position: relative;
+  top: 461px;
+  left: 278px;
+  z-index: 1;
+}
+
+.cucaTentarnovamente p {
+  width: 345px;
+  height: 100px;
+  position: absolute;
+  top: -2px;
+  left: -9px;
+}
+
+.cucaTentarnovamente p {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  padding: 6% 5% 4% 5%;
+  margin: auto;
+  line-height: 20px;
+}
+
+.cucaTentarnovamente a {
+  text-decoration: none;
+}
+
+.bt-okCuca {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ed8422;
+  text-align: center;
+
+  width: 95px;
+  height: 42px;
+  color: #fff;
+  display: inline-block;
+  margin: -18em 1em;
+  padding: 7px 2px 2px 2px;
+  border-radius: 0px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  position: absolute;
+  left: 325px;
+  top: 820px;
+  z-index: 2;
+}
+
+.bt-pularCuca {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ed8422;
+  text-align: center;
+
+  width: 95px;
+  height: 42px;
+  color: #fff;
+  display: inline-block;
+  margin: -18em 1em;
+  padding: 7px 2px 2px 2px;
+  border-radius: 0px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  position: absolute;
+  left: 444px;
+  top: 820px;
+  z-index: 2;
+}
+
+/*------Acertou-------*/
+
+.folhaAcertoupassagem {
+  display: none;
+  width: 608px;
+  height: 804px;
+  background-color: rgba(25, 25, 25, .1);
+  margin: 50px auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 50px;
+  left: 0px;
+  border: 1px solid#959494;
+  z-index: 0;
+}
+
+.cucaAcertou {
+  width: 555px;
+  height: 142px;
+  text-align: center;
+  padding: 2px 20px 2px 20px;
+  background-image: url(../assets/baloes_fala/feedbackbalaoCuca_Etapa3.svg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  position: relative;
+  top: 461px;
+  left: 278px;
+  z-index: 1;
+}
+
+.cucaAcertou p {
+  width: 345px;
+  height: 100px;
+  position: absolute;
+  top: -2px;
+  left: -9px;
+}
+
+.cucaAcertou p {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  padding: 6% 5% 4% 5%;
+  margin: auto;
+  line-height: 20px;
+}
+
+.ccucaAcertou a {
+  text-decoration: none;
+}
+
+.bt-okCuca {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ed8422;
+  text-align: center;
+  width: 95px;
+  height: 42px;
+  color: #fff;
+  display: inline-block;
+  margin: -18em 1em;
+  padding: 7px 2px 2px 2px;
+  border-radius: 0px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  position: absolute;
+  left: 380px;
+  top: 820px;
+  z-index: 2;
+}
+
+/* ---------Seção 4 - Trechos----------- */
+
+.bt-Avancar-trechos {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ed8422;
+  text-align: center;
+  width: 100px;
+  height: 42px;
+  color: #fff;
+  display: inline-block;
+  margin: -18em 1em;
+  padding: 7px 2px 2px 2px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  /* transform: translate(150%); */
+  cursor: pointer;
+  position: absolute;
+  left: 427px;
+  top: 830px;
+  z-index: 2;
+}
+
+.bt-Avancar-trechos:hover::before {
+  content: "";
+  width: 0;
+  height: 0;
+  top: 26px;
+  left: 89px;
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #995705;
+  transform: rotate(43deg);
+}
+
+.bt-Avancar-trechos:hover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  top: 19px;
+  left: 82px;
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fafaf9;
+  transform: rotate(224deg);
+}
+
+.bt-Avancar-trechos:hover{
+  background-color: #f59b48;
+}
+
+
+.bt-Voltar-trechos {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ed8422;
+  text-align: center;
+  width: 100px;
+  height: 42px;
+  color: #fff;
+  display: inline-block;
+  margin: -18em 1em;
+  padding: 7px 2px 2px 2px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  /* transform: translate(150%); */
+  cursor: pointer;
+  position: absolute;
+  left: -44px;
+  top: 830px;
+  z-index: 2;
+}
+
+.bt-Voltar-trechos:hover::before {
+  content: "";
+  width: 0;
+  height: 0;
+  top: 26px;
+  left: -1px;
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #995705;
+  transform: rotate(132deg);
+}
+
+.bt-Voltar-trechos:hover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  top: 19px;
+  left: 6px;
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fafaf9;
+  transform: rotate(312deg);
+}
+
+.bt-Voltar-trechos:hover{
+  background-color: #f59b48;
+}
+
+
+.bt-Voltar-trechos10 {
+  display: flex;
+  padding: 44px 1px 0px 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #995705;
+ 
+  justify-content: center;
+  
+  width: 160px;
+  height: 200px;
+  background-image: url(../assets/baloes_fala/trechos.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 370px;
+  left: 118px;
+  z-index: 2;
+  cursor: pointer;
+  
+}
+
+.bt-Voltar-trechos10:hover {
+  display: flex;
+  padding: 44px 1px 0px 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #995705;
+  
+  justify-content: center;
+  
+  width: 160px;
+  height: 200px;
+  background-image: url(../assets/baloes_fala/trechos.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 370px;
+  left: 118px;
+  z-index: 2;
+  cursor: pointer;
+  transform: scale(110%);
+}
+

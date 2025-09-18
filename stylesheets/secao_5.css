@@ -1,0 +1,74 @@
+/* ------ Seção 5 ---------*/
+
+
+.folhaPagina5 {
+  display: flex;
+  width: 608px;
+  height: 795px;
+  background-color: #efede5;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  align-content: center;
+  justify-content: center;
+  /* border: 1px solid#959494; */
+  opacity: 100%;
+  flex-direction: column;
+  margin: 10px auto!important;
+}
+
+#cuca-texto-acerto{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.linha {
+  position: relative;
+  height: 600px;
+  background-image: url(../assets/ambiente/linha.png);
+  background-repeat: repeat-y;
+  top: 20px;
+  left: 56px;
+}
+
+.folhaPagina5 h2 {
+  display: inline-block;
+  position: absolute;
+  top: 747px;
+  left: 294px;
+  font-family: "Slackey", cursive;
+}
+
+.linhasDecorativasPaginas5 {
+  width: 400px;
+  height: 50px;
+  position: relative;
+  left: 101px;
+  top: 91px;
+}
+
+textarea {
+resize: none;
+background-image: url(../assets/ambiente/linha.png);
+margin: 0 auto;
+width: 500px;
+height: 657px;
+margin-top: 46px;
+margin-bottom: 6px;
+line-height: 19px;
+line-height: 21.9px;
+border: none;
+overflow: auto;
+outline: none;
+padding: 0px 5px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+resize: none;
+border-radius: 10px;
+position: relative;
+z-index: 1;
+}
+
+

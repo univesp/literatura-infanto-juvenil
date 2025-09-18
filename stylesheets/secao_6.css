@@ -1,0 +1,80 @@
+/* ------ Seção 6 ---------*/
+
+
+.folhaPagina6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 608px;
+    height: 795px;
+    background-color: #efede5;
+    margin: 0px auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* border: 1px solid#959494; */
+    opacity: 100%;
+    margin: 10px auto !important;
+  }
+  
+  .paragarafo-secao-6 {
+    text-align: justify;
+    font-size: 14px;
+    padding: 7% 7% 7% 7%;
+    margin: 0px 0px -30px;
+  }
+  
+  .box-textoAlternativas6 {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  
+  .box-textoAlternativas6 p {
+    font-family: 'Times New Roman' , Times, serif;
+    font-style: italic;
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+    padding: 2% 7% 7% 7%;
+    margin: 0px 0px -7.5px 0px;
+    line-height: 28px;
+    position: relative;
+    top: 8px;
+    z-index: 1;
+  }
+  
+  
+  .ambienteEtapa6 {
+    width : 520px;
+  }
+
+  .linhaDecorativaHorizontal2{
+    width: 110%;
+    margin: 25px 0px;
+    opacity: 50%;
+  }
+  
+  .folhaPagina6 h2 {
+    display: inline-block;
+    position: absolute;
+    /*justify-content: center;
+    align-items: center;
+    display: flex;*/
+    top: 747px;
+    left: 299px;
+    font-family: "Slackey", cursive;
+  }
+  
+  
+  .linhasDecorativasPaginas6{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 108px;
+    top: 741px;
+  }
+
+  #secao-6 .bottom-page-number{
+    width: 86%;
+  }

@@ -1,0 +1,359 @@
+/* ------ Seção 3 ---------*/
+
+#question-container2,
+#question-container3,
+#question-container3,
+#question-container4,
+#question-container5,
+#question-container6,
+#question-container7,
+#question-container8,
+#question-container9,
+#question-container10 {
+  display: none;
+  
+}
+
+.question-container10 {
+  overflow: auto;
+  position: relative;
+  left: 2px;
+}
+
+.folhaPagina3 {
+  width: 608px;
+  height: 795px;
+  background-color: #efede5;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /* border: 1px solid#959494; */
+  opacity: 100%;
+  margin: 10px auto !important;
+}
+
+#texto-inicial {
+  text-align: justify;
+  font-size: 14px;
+  padding: 7% 7% 2% 7%;
+  margin: auto;
+}
+
+.box-textoAlternativas {
+  width: 520px;
+  background-image: linear-gradient(180deg, #304266, #304266, #304266, transparent);
+  margin: 0% 7% 7% 7%;
+  border: none;
+  padding: 25px;
+  z-index: 2;
+  min-height: 220px;
+  position: relative;
+}
+
+.box-textoAlternativas span {
+  color: white;
+}
+
+.letraA {
+  width: 80px;
+  height: 80px;
+  float: left;
+  position: relative;
+  opacity: 100%;
+  left: -3px;
+  top: 0px;
+
+}
+
+
+.box-textoAlternativas p {
+  text-align: justify;
+  color: #fff;
+  font-size: 14px;
+  padding: 7% 7% 7% 7%;
+  margin: auto;
+  line-height: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.formA {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  top: -204px;
+  left: 37px;
+  z-index: 2;
+}
+
+.caixaInput {
+  display: inline-block;
+}
+
+.formB {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  top: -161px;
+  left: 261px;
+  z-index: 2;
+}
+
+.sugestoes {
+  list-style: none;
+  padding: 0;
+  width: 110px;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5;
+}
+
+.sugestoes.escondido {
+  width: 0px;
+  height: 0px;
+  border: 0px;
+}
+
+.inputDinamica2 {
+  width: 110px;
+  height: 25px
+}
+
+.ambienteEtapa3 {
+  position: relative;
+  top: -190px;
+  left: 43px;
+  z-index: 0;
+}
+
+/* novo estilo para a nova dinamica */
+
+
+#cuca-parabens {
+  display: none;
+  padding: 19px;
+  line-height: normal;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  height: 130px;
+  width: 287px;
+  background-image: url(../assets/baloes_fala/feedbackbalaoCuca_Etapa3_Parabens.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  top: 493px;
+  left: 267px;
+}
+
+#cuca-parabens span {
+  font-size: 20px;
+  line-height: 0px;
+  
+
+
+}
+
+.quiz-container {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  display: flex;
+  margin: auto;
+  text-align: inherit;
+  padding: 1rem;
+  color: #fff;
+  position: relative;
+  background-image: linear-gradient(180deg, #304266, #304266, #304266, transparent);
+  width: 522px;
+  height: 265px;
+  z-index: 1;
+  
+
+}
+
+
+/* .answer {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+} */
+
+/* select {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+
+select {
+  /* margin: 0px 0px 0px -4px; */
+  width: 130px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+#answer-1 {
+  position: relative;
+
+  height: 31px;
+
+  margin: 5px;
+  left: -13px;
+}
+
+#answer-2 {
+
+  position: relative;
+  height: 31px;
+  margin: 5px;
+  left: -4px;
+
+}
+
+.submitbuttonTrecho10 {
+  display: none;
+}
+
+.submit-button2 {
+  display: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #2b9660;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: absolute;
+  left: 361px;
+  z-index: 1;
+  top:657px;
+}
+
+.submit-button2:hover {
+  background-color: #42a373;
+}
+
+.submit-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2b9660;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    position: absolute;
+    top: 435px;
+    left: 310px;
+}
+
+
+.submit-button:hover {
+  background-color: #42a373;
+}
+
+.balao-next-button1,
+.balao-next-button2,
+.balao-next-button3,
+.balao-next-button4,
+.balao-next-button5,
+.balao-next-button6,
+.balao-next-button7,
+.balao-next-button8,
+.balao-next-button9,
+.balao-next-button10 {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: none;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  width: 277px;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  background-color: #fff;
+  position: absolute;
+  top: 282px;
+  left: 225px;
+}
+
+#next-button1,
+#next-button2,
+#next-button3,
+#next-button4,
+#next-button5,
+#next-button6,
+#next-button7,
+#next-button8,
+#next-button9,
+#next-button10 {
+  background-color: #008cba;
+  color: white;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  margin: 39px auto;
+}
+
+#next-button:hover {
+  background-color: #006d87;
+  color: white;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.result-container {
+  width: 400px;
+  height: 100px;
+  background-color: #4caf50;
+}
+
+
+/* fim do estilo para nova dinamica */
+
+.cuca-doida {
+  position: absolute;
+  /* width: auto; */
+  /* height: auto; */
+  z-index: 1;
+  left: 62px;
+  top: 474px;
+}
+
+
+#caixaFeedback {
+  background-image: url(../assets/ambiente/ambienteEtapa3.png);
+  margin: -19% 7.1% -2.5px 7%;
+  padding: 19% 0% 0% 0%;
+  height: 340px;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-end;
+  min-height: 340px;
+  position: relative;
+}
